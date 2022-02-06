@@ -1,3 +1,9 @@
+
+-- 
+-- create table Result (Value number primary key,OorE varchar(10));
+
+
+
 declare
     lim number:=10;
 begin
