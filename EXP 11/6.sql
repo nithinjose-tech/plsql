@@ -1,5 +1,4 @@
-
--- 
+ -- drop table result;  
 -- create table Result (Value number primary key,OorE varchar(10));
 
 
