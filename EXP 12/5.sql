@@ -1,6 +1,6 @@
--- drop table staff;
--- create table staff(id integer,salary integer);
--- insert into staff (id,salary) values (1,1000)
+-- drop table staf;
+-- create table staf(id integer,salary integer);
+-- insert into staf (id,salary) values (1,1000)
 
 DECLARE
     staff_id INTEGER;
@@ -13,7 +13,7 @@ DECLARE
             (n = 1)
         THEN
             DELETE
-            FROM staff
+            FROM staf
             WHERE id = staff_id;
             DBMS_OUTPUT.put_line('Staff with staff_id ' || staff_id || ' deleted successfully!');
         ELSE
@@ -25,14 +25,14 @@ BEGIN
     staff_id := 4;
     SELECT COUNT(*)
     INTO n
-    FROM staff
+    FROM staf
     WHERE id = staff_id;
     dlt_staff
         (staff_id, n);
 END;
 /
 
--- select * from staff;
+select * from staff;
 
 -- Enter value for staff_id: 1
 -- old  21:     staff_id := &staff_id;
