@@ -1,3 +1,7 @@
+
+-- create table evaluation(num int primary key,square int,cube int);
+
+
 declare
     lim number:=10;
 begin
