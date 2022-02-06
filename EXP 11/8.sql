@@ -1,3 +1,9 @@
+
+-- create table Customer(cid int,emi int);
+-- insert into Customer values(1,1200);
+
+
+
 declare
     input_cid number:=1;
     row_no number;
