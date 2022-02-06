@@ -1,7 +1,7 @@
 DECLARE
     CURSOR dept IS SELECT *
                    FROM INSTRUCTOR;
-    salary INTEGER := 5000;
+    salary INTEGER := 10000;
 BEGIN
     FOR i IN dept
         LOOP
