@@ -1,8 +1,8 @@
 declare
-    n   number := &factorial;
-    m   number := &square_of_n;
-    o   number := &fibonacci_n;
-    p   number := &prime_n;
+    n   number := 5;
+    m   number := 4;
+    o   number := 8;
+    p   number := 11;
     out number;
     st  boolean;
 
@@ -22,5 +22,3 @@ begin
     end if;
 end;
 /
-
-
