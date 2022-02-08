@@ -1,6 +1,6 @@
 -- drop table staff;
 -- create table staff(id integer,salary integer);
--- insert into staff (id,salary) values (1,1000);
+-- insert into staff (id,salary) values (5,1000);
 
 declare
     staff_id integer;
