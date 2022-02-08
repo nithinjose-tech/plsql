@@ -11,4 +11,6 @@ begin
     raise XCEP;
 end;
 
+/
+
 -- INSERT INTO COURSE values('BIO-396','Genetis','Biology',2);
